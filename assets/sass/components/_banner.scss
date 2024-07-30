@@ -1,0 +1,84 @@
+/*=============================
+	05. Banner area one start
+===============================*/
+.banner-area-one {
+	padding: 82px 0 61px 0;
+	background-color: var(--white);
+	position: relative;
+
+	.lines {
+		display: flex;
+		justify-content: space-between;
+		position: absolute;
+		top: -90px;
+		bottom: 0;
+		width: 100%;
+
+		span {
+			width: 1px;
+			height: 120%;
+			background-color: #E8E8E8;
+		}
+	}
+
+	.banner-text {
+		.link-btn {
+			display: flex;
+			justify-content: space-between;
+			gap: 12px;
+			max-width: 298px;
+			margin-left: 111px;
+			color: var(--paragraph);
+			line-height: 140%;
+			border-bottom: 2px solid var(--paragraph);
+			padding-bottom: 5px;
+			margin-bottom: 30px;
+
+			.icon {
+				transform: rotate(-45deg);
+			}
+		}
+
+		.banner-title {
+			color: var(--black);
+			font-family: var(--font-secondary);
+			font-size: 96px;
+			font-weight: 700;
+			line-height: 108px;
+
+			span {
+				display: block;
+			}
+
+			.line-1 {
+				padding-left: 97px;
+			}
+
+			.line-3 {
+				padding-left: 270px;
+			}
+		}
+
+		p {
+			margin-top: 22px;
+			max-width: 556px;
+			margin-left: auto;
+		}
+
+		.banner-shape-line {
+			position: absolute;
+			bottom: 32px;
+			left: 99px;
+		}
+	}
+
+	.banner-image {
+		margin-top: 72px;
+
+		.banner-img {
+			position: absolute;
+			top: 10px;
+			left: 20px;
+		}
+	}
+}

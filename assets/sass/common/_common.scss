@@ -1,0 +1,182 @@
+@import "../variable/variable";
+@import "../mixin/font";
+@import "../mixin/line-limit";
+
+/*
+  Theme Name: Digiso
+  Support: 
+  Description: Digiso
+  Version: 1.0
+*/
+
+/* CSS Index
+============================
+01. Variable CSS
+02. Common CSS
+03. Header
+04. Home
+05. About
+06. Services
+07. Portfolio
+08. Blog
+09. Contact
+10. Footer
+============================
+*/
+
+/*=============================
+	1. Google Fonts
+===============================*/
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+
+/*=============================
+	01. Variable CSS start
+===============================*/
+
+:root {
+  --font-primary: #{$font-primary};
+  --font-secondary: #{$font-secondary};
+  --primary: #{$primary};
+  --black: #{$black};
+  --black-two: #{$black-two};
+  --black-three: #{$black-three};
+  --white: #{$white};
+  --paragraph: #{$paragraph};
+  --font-size: #{$font-size};
+  --font-weight: #{$font-weight};
+  --line-height: #{$line-height};
+  --transition: #{$transition};
+}
+
+/*=============================
+	02. Common CSS start
+===============================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  line-height: var(--line-height);
+  color: var(--black);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+span,
+small {
+  display: inline-block;
+}
+
+a,
+button {
+  -webkit-transition: all 0.1s ease-out 0s;
+  -moz-transition: all 0.1s ease-out 0s;
+  -ms-transition: all 0.1s ease-out 0s;
+  -o-transition: all 0.1s ease-out 0s;
+  transition: all 0.1s ease-out 0s;
+  text-decoration: none;
+}
+
+a:focus,
+.btn:focus,
+button:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  line-height: var(--line-height);
+  color: var(--paragraph);
+  margin: 0;
+  padding: 0;
+}
+
+*::-moz-selection {
+  background: var(--black);
+  color: var(--white);
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: var(--black);
+  color: var(--white);
+  text-shadow: none;
+}
+
+::selection {
+  background: var(--black);
+  color: var(--white);
+  text-shadow: none;
+}
+
+.row {
+  --bs-gutter-x: 30px;
+}
+
+/* section title */
+.section-title-block {
+  .section-sub-title {
+    color: var(--paragraph);
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+  }
+  .section-title {
+    color: var(--black);
+    font-family: var(--font-secondary);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+  }
+}
+
+/* common btn */
+.view-all-btn {
+  width: 149px;
+  height: 149px;
+  fill: var(--white);
+  border: 1px solid #E6E6E6;
+  border-radius: 50%;
+  color: var(--black-two);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 135%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}

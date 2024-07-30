@@ -1,0 +1,48 @@
+/*=============================
+	05. Text slider area start
+===============================*/
+.text-sldier-area {
+	background-color: var(--black);
+	padding: 46px 0;
+
+	.slider-main {
+		gap: 49px;
+		justify-content: flex-start;
+
+		.slider-item {
+			display: flex;
+			white-space: nowrap;
+			animation: scroll2 10s linear infinite;
+			gap: 49px;
+			align-items: center;
+
+			.title {
+				color: #FBFBFB;
+				font-family: var(--font-secondary);
+				font-size: 85px;
+				font-weight: 700;
+				line-height: 120%;
+
+				img {
+					margin-right: 29px;
+				}
+			}
+		}
+
+		&:hover {
+			.slider-item {
+				animation-play-state: paused;
+			}
+		}
+	}
+}
+
+@keyframes scroll2 {
+	0% {
+		transform: translateX(0)
+	}
+
+	to {
+		transform: translateX(calc(-100% - 0.5rem))
+	}
+}
