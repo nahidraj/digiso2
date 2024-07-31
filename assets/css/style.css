@@ -1039,7 +1039,28 @@ p {
   opacity: 1;
 }
 
-.footer-one-area {
+.footer-area {
   background-color: var(--bs-bg-color1);
-  padding-top: 101px;
+}
+.footer-area .footer-container {
+  padding: 186px 0 158px 0;
+}
+.footer-area .lines span {
+  width: 1px;
+  background-color: var(--bs-border-color1);
+}
+.footer-area .footer-text {
+  padding-bottom: 103px;
+}
+.footer-area .footer-text .title {
+  color: var(--bs-text-colo1);
+  text-align: center;
+  font-family: var(--bs-heading-font-secondary);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 102%;
+  margin-bottom: 22px;
+}
+.footer-area .footer-text .theme-btn {
+  margin-top: 42px;
 }

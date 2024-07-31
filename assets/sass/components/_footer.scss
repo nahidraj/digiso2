@@ -1,5 +1,30 @@
-.footer-one-area{
+.footer-area {
   background-color: var(--bs-bg-color1);
-  padding-top: 101px;
-  
+
+  .footer-container {
+    padding: 186px 0 158px 0;
+  }
+
+  .lines {
+    span {
+      width: 1px;
+      background-color: var(--bs-border-color1);
+    }
+  }
+
+  .footer-text {
+    padding-bottom: 103px;
+    .title {
+      color: var(--bs-text-colo1);
+      text-align: center;
+      font-family: var(--bs-heading-font-secondary);
+      font-size: 64px;
+      font-weight: 700;
+      line-height: 102%;
+      margin-bottom: 22px;
+    }
+    .theme-btn{
+      margin-top: 42px;
+    }
+  }
 }
