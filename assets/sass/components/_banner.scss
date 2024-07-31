@@ -3,7 +3,7 @@
 ===============================*/
 .banner-area-one {
 	padding: 82px 0 61px 0;
-	background-color: var(--white);
+	background-color: var(--bs-white);
 	position: relative;
 
 	.lines {
@@ -17,7 +17,7 @@
 		span {
 			width: 1px;
 			height: 120%;
-			background-color: #E8E8E8;
+			background-color: var(--bs-border-color1);
 		}
 	}
 
@@ -28,9 +28,9 @@
 			gap: 12px;
 			max-width: 298px;
 			margin-left: 111px;
-			color: var(--paragraph);
+			color: var(--bs-paragraph);
 			line-height: 140%;
-			border-bottom: 2px solid var(--paragraph);
+			border-bottom: 2px solid var(--bs-paragraph);
 			padding-bottom: 5px;
 			margin-bottom: 30px;
 
@@ -40,8 +40,8 @@
 		}
 
 		.banner-title {
-			color: var(--black);
-			font-family: var(--font-secondary);
+			color: var(--bs-text-color1);
+			font-family: var(--bs-heading-font-secondary);
 			font-size: 96px;
 			font-weight: 700;
 			line-height: 108px;

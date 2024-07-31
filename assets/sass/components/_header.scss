@@ -7,12 +7,12 @@
 }
 
 .header-area {
-	background-color: var(--white);
+	background-color: var(--bs-white);
 	position: relative;
 	z-index: 999;
 	width: 100%;
 	padding: 32px 0;
-	border-bottom: 1px solid #E8E8E8;
+	border-bottom: 1px solid var(--bs-border-color1);
 
 	.navbar {
 		padding: 0;
@@ -25,13 +25,13 @@
 				.nav-link {
 					font-size: 18px;
 					font-weight: 500;
-					color: var(--black-three);
-					font-family: var(--font-secondary);
+					color: var(--bs-text-color3);
+					font-family: var(--bs-heading-font-secondary);
 				}
 
 				.sub-menu {
 					width: 226px;
-					background-color: var(--white);
+					background-color: var(--bs-white);
 					position: absolute;
 					top: 100%;
 					margin-top: 50px;
@@ -41,7 +41,7 @@
 					visibility: hidden;
 					opacity: 0;
 					transition: all linear 0.2s;
-					border: 1px solid #E8E8E8;
+					border: 1px solid var(--bs-border-color1);
 
 					&::before {
 						position: absolute;
@@ -56,15 +56,15 @@
 						a {
 							font-size: 18px;
 							font-weight: 500;
-							color: var(--black-three);
-							font-family: var(--font-secondary);
+							color: var(--bs-text-color3);
+							font-family: var(--bs-heading-font-secondary);
 							display: block;
 							background-color: transparent;
 							width: 100%;
 							padding: 8px 16px;
 
 							&:hover {
-								background-color: var(--primary);
+								background-color: var(--bs-primary);
 							}
 						}
 					}
@@ -86,7 +86,7 @@
 	.join-with-us-btn {
 		font-size: 16px;
 		font-weight: 600;
-		color: var(--black-two);
+		color: var(--bs-text-color2);
 		text-decoration: underline;
 	}
 }
@@ -98,7 +98,7 @@
 }
 
 .sticky-menu {
-	background-color: var(--white);
+	background-color: var(--bs-white);
 	animation: 400ms ease-in-out 0s normal none 1 running fadeInDown;
 	box-shadow: 0 2px 20px rgba(25, 25, 25, 0.1);
 	border-radius: 0;
@@ -122,14 +122,14 @@
 
 .mobile-menu-area {
 	z-index: 999;
-	background-color: var(--white);
+	background-color: var(--bs-white);
 	width: 100%;
 	transition: all linear 0.2s;
 	margin-top: 0;
 
 	.mobile-topbar {
 		width: 100%;
-		background-color: var(--white);
+		background-color: var(--bs-white);
 		padding: 13px 0;
 
 		.bars {
@@ -137,7 +137,7 @@
 
 			height: 35px;
 			width: 45px;
-			color: var(--black);
+			color: var(--bs-text-color1);
 			font-size: 24px;
 			text-align: center;
 			line-height: 35px;
@@ -168,7 +168,7 @@
 	.mobile-menu-main {
 		width: 320px;
 		height: 100%;
-		background-color: var(--white);
+		background-color: var(--bs-white);
 		position: fixed;
 		top: 0;
 		left: -320px;
@@ -190,7 +190,7 @@
 				height: 40px;
 				text-align: center;
 				line-height: 40px;
-				color: var(--black);
+				color: var(--bs-text-color1);
 				font-size: 17px;
 				cursor: pointer;
 				transition: all linear 0.2s;
@@ -207,8 +207,8 @@
 						a {
 							font-weight: 500;
 							font-size: 15px;
-							color: var(--black);
-							border-top: 1px solid #E8E8E8;
+							color: var(--bs-text-color1);
+							border-top: 1px solid var(--bs-border-color1);
 							width: 100%;
 							padding: 0px 20px;
 							line-height: 44px;
@@ -222,7 +222,7 @@
 							i {
 								width: 32px;
 								height: 32px;
-								background-color: var(--white);
+								background-color: var(--bs-white);
 								text-align: center;
 								line-height: 32px;
 								font-size: 12px;
@@ -247,7 +247,7 @@
 
 						&:last-child {
 							a {
-								border-bottom: 1px solid #E8E8E8;
+								border-bottom: 1px solid var(--bs-border-color1);
 							}
 						}
 					}
@@ -266,7 +266,7 @@
 						a {
 							width: 36px;
 							height: 36px;
-							color: var(--black);
+							color: var(--bs-text-color1);
 							text-align: center;
 							font-size: 16px;
 							line-height: 36px;
@@ -286,7 +286,7 @@
 		padding: 20px;
 
 		a {
-			color: var(--white);
+			color: var(--bs-white);
 			padding: 12px 0;
 			font-size: 16px;
 			font-weight: 700;
@@ -300,7 +300,7 @@
 			}
 
 			&:hover {
-				background-color: var(--black);
+				background-color: var(--bs-text-color1);
 			}
 		}
 	}

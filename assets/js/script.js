@@ -45,8 +45,8 @@
 
 	// blog one image change js
 	$(document).ready(function () {
-		$('.blog-one-item').hover(function () {
-			$('.blog-one-item').removeClass('blog-active');
+		$('.blog-item').hover(function () {
+			$('.blog-item').removeClass('blog-active');
 			$(this).addClass('blog-active');
 		});
 	});

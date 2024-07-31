@@ -1,24 +1,21 @@
 /*=============================
 	05. Text slider area start
 ===============================*/
-.text-sldier-area {
-	background-color: var(--black);
+.text-slider-area {
+	background-color: var(--bs-text-color1);
 	padding: 46px 0;
 
 	.slider-main {
 		gap: 49px;
-		justify-content: flex-start;
 
 		.slider-item {
-			display: flex;
 			white-space: nowrap;
 			animation: scroll2 10s linear infinite;
 			gap: 49px;
-			align-items: center;
 
 			.title {
-				color: #FBFBFB;
-				font-family: var(--font-secondary);
+				color: var(--bs-white2);
+				font-family: var(--bs-heading-font-secondary);
 				font-size: 85px;
 				font-weight: 700;
 				line-height: 120%;
@@ -46,3 +43,4 @@
 		transform: translateX(calc(-100% - 0.5rem))
 	}
 }
+

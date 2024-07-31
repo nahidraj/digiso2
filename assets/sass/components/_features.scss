@@ -3,7 +3,8 @@
 ===============================*/
 .feature-area-one {
 	padding-top: 201px;
-	background-color: #FBFBFB;
+	background-color: var(--bs-bg-color1);
+	padding-bottom: 135px;
 	margin-top: -35px;
 
 	.feature-one-main {
@@ -20,8 +21,8 @@
 
 	.feature-title {
 		margin-bottom: 16px;
-		color: var(--black);
-		font-family: var(--font-secondary);
+		color: var(--bs-text-color1);
+		font-family: var(--bs-heading-font-secondary);
 		font-size: 32px;
 		font-weight: 600;
 		line-height: 132%;
