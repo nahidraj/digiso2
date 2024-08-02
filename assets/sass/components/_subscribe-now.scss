@@ -11,5 +11,36 @@
       line-height: 132%;
       margin-bottom: 22px;
     }
+
+    label {
+      color: var(--bs-text-color7);
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 160%;
+      margin-bottom: 32px;
+    }
+
+    .input-group {
+
+      input {
+        width: 100%;
+        color: var(--bs-text-color7);
+        opacity: 1;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 160%;
+        border: 0;
+        border-bottom: 1px solid var(--bs-border-color6);
+        background-color: transparent;
+        padding-bottom: 14px;
+
+        &:focus {
+          box-shadow: none;
+        }
+      }
+      button{
+        top: -12px;
+      }
+    }
   }
 }

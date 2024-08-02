@@ -12,8 +12,13 @@
       right: 142px;
     }
   }
-  .contact-title{
-    margin-right: -170px;
+
+  .page-sub-title2 {
+    font-family: var(--bs-font-secondary);
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 130%;
+    max-width: 865px;
   }
 
   .page-title {
@@ -22,7 +27,21 @@
     font-size: 228px;
     font-weight: 600;
     line-height: 118.86%;
-    top: 229px;
+    top: 228px;
     right: 0;
+  }
+
+  .contact-title {
+    margin-right: -170px;
+  }
+
+  .faq-title {
+    margin-right: -830px;
+    top: 121px;
+  }
+
+  .des {
+    max-width: 496px;
+    margin-left: auto;
   }
 }

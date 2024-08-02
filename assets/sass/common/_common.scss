@@ -42,6 +42,7 @@
   --bs-text-color4: #ABABAB;
   --bs-text-color5: #000000;
   --bs-text-color6: #F8F8F8;
+  --bs-text-color7: #AAAAAA;
   --bs-bg-color1: #F8F8F8;
   --bs-bg-color2: #10171D;
   --bs-bg-color3: #18212A;
@@ -50,6 +51,9 @@
   --bs-border-color3: rgba(193, 193, 193, 0.20);
   --bs-border-color4: #ABABAB;
   --bs-border-color5: #E1E1E1;
+  --bs-border-color6: #666666;
+  --bs-border-color7: #18212A;
+  --bs-border-color8: #EFEFEF;
   --bs-rgba-color1: rgba(21, 21, 21, 0.91);
   --bs-white: #ffffff;
   --bs-white2: #FBFBFB;
@@ -208,6 +212,7 @@ p {
   padding: 24px 46px;
   border-radius: 50px;
   background-color: var(--bs-bg-color2);
+  border: 0;
 
   span {
     width: 70px;
