@@ -34,18 +34,23 @@
 :root,
 [data-bs-theme=light] {
   --bs-body-font-primary: "Sora", sans-serif;
-  --bs-heading-font-secondary: "Bricolage Grotesque", sans-serif;
+  --bs-font-secondary: "Bricolage Grotesque", sans-serif;
   --bs-primary: #D6FFC8;
   --bs-text-color1: #10171D;
   --bs-text-color2: #18212A;
   --bs-text-color3: #171717;
   --bs-text-color4: #ABABAB;
+  --bs-text-color5: #000000;
+  --bs-text-color6: #F8F8F8;
   --bs-bg-color1: #F8F8F8;
+  --bs-bg-color2: #10171D;
+  --bs-bg-color3: #18212A;
   --bs-border-color1: #E8E8E8;
   --bs-border-color2: #E6E6E6;
   --bs-border-color3: rgba(193, 193, 193, 0.20);
-  ;
   --bs-border-color4: #ABABAB;
+  --bs-border-color5: #E1E1E1;
+  --bs-rgba-color1: rgba(21, 21, 21, 0.91);
   --bs-white: #ffffff;
   --bs-white2: #FBFBFB;
   --bs-paragraph: #666666;
@@ -159,7 +164,7 @@ p {
 
   .section-title {
     color: var(--bs-text-color1);
-    font-family: var(--bs-heading-font-secondary);
+    font-family: var(--bs-font-secondary);
     font-size: 48px;
     font-weight: 600;
     line-height: 120%;
@@ -195,6 +200,20 @@ p {
   padding-right: 10px;
 }
 
-// .theme-btn{
+.theme-btn {
+  color: var(--bs-white);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  padding: 24px 46px;
+  border-radius: 50px;
+  background-color: var(--bs-bg-color2);
 
-// }
+  span {
+    width: 70px;
+    height: 70px;
+    border-radius: 99px;
+    background: var(--bs-primary);
+    right: -54px;
+  }
+}

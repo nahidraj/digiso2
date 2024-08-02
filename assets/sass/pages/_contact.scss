@@ -1,0 +1,56 @@
+.contact-info-section {
+  .contact-social-icon {
+    margin-top: 190px;
+    gap: 2px;
+
+    a {
+      width: 72px;
+      height: 72px;
+      background: var(--bs-bg-color2);
+
+      &:hover {
+        transform: translateY(-5px);
+      }
+    }
+  }
+
+  .contact-info {
+    margin-top: -30px;
+
+    p {
+      padding-right: 0px;
+      padding-bottom: 43px;
+    }
+
+    ul {
+      li {
+        color: var(--bs-text-color2);
+        font-family: var(--bs-font-secondary);
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 140%;
+        margin-bottom: 10px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+
+        span {
+          padding-right: 10px;
+        }
+
+        a {
+          color: var(--bs-text-color2);
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+.contact-form-section {
+  
+}

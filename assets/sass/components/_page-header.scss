@@ -1,0 +1,28 @@
+.page-header {
+  .page-sub-title {
+    font-family: var(--bs-font-secondary);
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 103%;
+    max-width: 675px;
+    padding-top: 167px;
+
+    .page-header-shape {
+      bottom: -34px;
+      right: 142px;
+    }
+  }
+  .contact-title{
+    margin-right: -170px;
+  }
+
+  .page-title {
+    font-family: var(--bs-font-secondary);
+    color: var(--bs-text-color6);
+    font-size: 228px;
+    font-weight: 600;
+    line-height: 118.86%;
+    top: 229px;
+    right: 0;
+  }
+}
