@@ -1194,7 +1194,7 @@ p {
   border-radius: 5px;
   border: 0;
   bottom: -45px;
-  right: 30px;
+  right: 24px;
   opacity: 0;
   visibility: hidden;
   font-size: 18px;
@@ -1207,7 +1207,7 @@ p {
 .scroll-to-top.show {
   opacity: 1;
   visibility: visible;
-  bottom: 15px;
+  bottom: 24px;
 }
 
 .footer-section-five {
