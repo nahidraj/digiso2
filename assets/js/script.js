@@ -52,14 +52,32 @@
 	});
 
 
-	// // Client feedback slider js
-	// $(".client-feedback-slider").slick({
+	// Testimonial slider js
+	$(".testimonial-slider").slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		dots: true,
+		infinite: true,
+		arrows: false,
+		speed: 500,
+		responsive: [{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+			}
+		}]
+	});
+
+	// // Testimonial slider js
+	// $(".testimonial-slider").slick({
 	// 	slidesToShow: 2,
 	// 	slidesToScroll: 1,
 	// 	autoplay: false,
 	// 	dots: false,
 	// 	infinite: true,
-	// 	arrows: true,
+	// 	arrows: false,
 	// 	speed: 500,
 	// 	prevArrow: '<i class="fas left icon fa-arrow-left"></i>',
 	// 	nextArrow: '<i class="fas right icon fa-arrow-right"></i>',
@@ -71,6 +89,30 @@
 	// 		}
 	// 	}]
 	// });
+
+	// back to top js
+	let btn = $(".scroll-to-top");
+
+	$(window).scroll(function () {
+		btn.toggleClass("show", $(window).scrollTop() > 300);
+	});
+
+	btn.click(function (e) {
+		e.preventDefault();
+		if (navigator.userAgent.toLowerCase().indexOf("firefox") > -1) {
+			$("html").animate({
+					scrollTop: 0,
+				},
+				1000
+			);
+		} else {
+			$("html, body").animate({
+					scrollTop: 0,
+				},
+				0
+			);
+		}
+	});
 
 	// Mobile menu js start
 	$(".mobile-topbar .bars").on("click", function () {

@@ -2,13 +2,13 @@
 	05. Services area start
 ===============================*/
 
-.services-one-area {
-	.container {
+.services-section {
+	.services-container {
 		border-right: 1px solid var(--bs-border-color1);
 		border-left: 1px solid var(--bs-border-color1);
-		padding: 0;
 		padding-top: 177px;
 		padding-bottom: 176px;
+		max-width: 1280px !important;
 
 		&::before {
 			width: 1px;
@@ -22,12 +22,10 @@
 		}
 	}
 
-	.services-one-top-info {
+	.services-top-info {
 		padding: 0 76px;
 
 		.view-all-services {
-			display: flex;
-			justify-content: flex-end;
 			margin-top: 29px;
 
 			.view-all-btn {
@@ -36,19 +34,13 @@
 		}
 	}
 
-	.services-one-main {
+	.services-main {
 		padding-top: 46px;
 
-		.services-one-item {
+		.services-item {
 			padding: 45px 106px 45px 106px;
 			border-top: 1px solid var(--bs-border-color1);
 
-			a {
-				display: flex;
-				width: 100%;
-				justify-content: space-between;
-				align-items: center;
-			}
 
 			&:last-child {
 				border-bottom: 1px solid var(--bs-border-color1);
@@ -60,7 +52,6 @@
 				font-weight: 600;
 				line-height: normal;
 				max-width: 10%;
-				width: 100%;
 				flex: 0 0 auto;
 			}
 
@@ -71,19 +62,16 @@
 				font-weight: 600;
 				line-height: 132%;
 				max-width: 27%;
-				width: 100%;
 				flex: 0 0 auto;
 			}
 
 			p {
 				max-width: 45%;
-				width: 100%;
 				flex: 0 0 auto;
 			}
 
 			.icon {
 				max-width: 10%;
-				width: 100%;
 				text-align: right;
 			}
 		}

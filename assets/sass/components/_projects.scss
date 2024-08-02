@@ -2,11 +2,12 @@
 	05. Projects area start
 ===============================*/
 
-.projects-area {
+.projects-section {
   background-color: var(--bs-bg-color1);
-
+  
   .project-container {
     padding: 190px 0 53px 0;
+    max-width: 1280px !important;
   }
 
   .lines {
@@ -91,12 +92,11 @@
 
   .view-all-projects {
     padding: 46px 0 72px 0;
-    .view-all-btn{
+
+    .view-all-btn {
       background-color: var(--bs-primary);
       border-color: transparent;
       padding-top: 35px;
     }
   }
-
-
 }

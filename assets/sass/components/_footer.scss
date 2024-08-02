@@ -3,6 +3,7 @@
 
   .footer-container {
     padding: 101px 0 34px 0;
+    max-width: 1280px !important;
   }
 
   .lines {
@@ -17,7 +18,6 @@
 
     .title {
       color: var(--bs-text-color1);
-      text-align: center;
       font-family: var(--bs-font-secondary);
       font-size: 64px;
       font-weight: 700;
@@ -79,6 +79,30 @@
       }
     }
   }
+}
+
+/* back to top button */
+.scroll-to-top {
+  background: var(--bs-bg-color2);
+  width: 40px;
+  height: 40px;
+  color: var(--bs-white);
+  border-radius: 5px;
+  border: 0;
+  bottom: -45px;
+  right: 30px;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 18px;
+  z-index: 99;
+  cursor: pointer;
+  transition: var(--bs-transition);
+}
+
+.scroll-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  bottom: 15px;
 }
 
 .footer-section-five {

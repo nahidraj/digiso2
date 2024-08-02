@@ -1,18 +1,22 @@
 /*=============================
 	05. Feature area start
 ===============================*/
-.feature-area-one {
+.feature-section {
 	padding-top: 201px;
 	background-color: var(--bs-bg-color1);
 	padding-bottom: 135px;
 	margin-top: -35px;
+
+	.container {
+		max-width: 1280px !important;
+	}
 
 	.feature-one-main {
 		margin-top: 82px;
 	}
 }
 
-.feature-one-item {
+.feature-item {
 	padding: 0 15px;
 
 	.feature-icon {
@@ -29,7 +33,7 @@
 	}
 }
 
-.feature-one-content {
+.feature-content {
 	&::after {
 		background: url(../img/features/feature-one-line.svg);
 		width: 2px;

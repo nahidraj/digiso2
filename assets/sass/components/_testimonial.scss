@@ -1,7 +1,141 @@
-.testimonial-area{
-  height: 700px;
-  .overlay{
+.testimonial-section {
+
+  .testimonial-container {
     padding: 103px 0 102px 0;
+    max-width: 1280px !important;
+  }
+  
+  .overlay {
     background: var(--bs-rgba-color1);
+
+    .lines {
+      span {
+        width: 1px;
+        background-color: var(--bs-border-color1);
+      }
+    }
+
+    .testimonial-info {
+      padding-left: 70px;
+
+      .title {
+        color: var(--bs-white3);
+        font-size: 20px;
+        font-weight: 600;
+        line-height: normal;
+      }
+
+      .image-group {
+        margin-top: 340px;
+
+        ul {
+          li {
+            width: 61px;
+            height: 61px;
+            border: 2px solid var(--bs-border-color9);
+          }
+
+          li+li {
+            margin-left: -15px;
+          }
+        }
+
+        p {
+          margin-top: 20px;
+          color: var(--bs-white);
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 150%;
+          max-width: 221px;
+        }
+      }
+    }
+
+    .slick-slider {
+      position: static !important;
+    }
+
+    .testimonial-slider {
+      max-width: 654px;
+
+      .slider-item {
+        .user {
+          margin-bottom: 41px;
+
+          .name {
+            color: var(--bs-white);
+            font-size: 24px;
+            font-weight: 600;
+            line-height: normal;
+            margin-bottom: 8px;
+          }
+
+          .designation {
+            color: var(--bs-text-color4);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 27px;
+          }
+        }
+
+        p {
+          color: var(--bs-text-color8);
+          font-size: 28px;
+          font-style: italic;
+          font-weight: 500;
+          line-height: 42px;
+        }
+      }
+
+      .slick-dots {
+        position: absolute;
+        top: 209px;
+        left: 81px;
+
+        li {
+
+          button {
+            font-size: 0;
+            background-color: var(--bs-bg-color4);
+            width: 10px;
+            height: 10px;
+            border-radius: 10px;
+            border: 0;
+            position: relative;
+
+            &::before {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              width: 32px;
+              height: 32px;
+              content: "";
+              background: url(../img/icons/slider-dots.svg);
+              visibility: hidden;
+            }
+          }
+        }
+
+        li+li {
+          margin-top: 10px;
+        }
+
+        .slick-active {
+          button {
+            background-color: var(--bs-bg-color5);
+
+            &::before {
+              visibility: visible;
+            }
+          }
+        }
+      }
+    }
+
+    .view-all-btn2 {
+      color: var(--bs-white);
+      margin-top: 130px;
+    }
   }
 }
