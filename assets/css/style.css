@@ -44,6 +44,7 @@
   --bs-bg-color3: #18212A;
   --bs-bg-color4: #666666;
   --bs-bg-color5: #F6F6F6;
+  --bs-bg-color6: #FAFAFA;
   --bs-border-color1: #E8E8E8;
   --bs-border-color2: #E6E6E6;
   --bs-border-color3: rgba(193, 193, 193, 0.20);
@@ -54,6 +55,7 @@
   --bs-border-color8: #EFEFEF;
   --bs-border-color9: #151515;
   --bs-border-color10: #DCDCDC;
+  --bs-border-color11: #2D3339;
   --bs-rgba-color1: rgba(21, 21, 21, 0.91);
   --bs-white: #ffffff;
   --bs-white2: #FBFBFB;
@@ -1308,9 +1310,14 @@ p {
   margin-right: -830px;
   top: 121px;
 }
+.page-header .pricing-title {
+  margin-right: -130px;
+  top: 121px;
+}
 .page-header .des {
   max-width: 496px;
   margin-left: auto;
+  margin-top: -36px;
 }
 
 .subscribe-now-section {
@@ -1357,6 +1364,73 @@ p {
   background-color: var(--bs-border-color8);
 }
 
+.pricing-section {
+  padding: 120px 0 218px 0;
+}
+.pricing-section .pricing-item {
+  background-color: var(--bs-bg-color6);
+  padding: 45px 48px 55px;
+  height: 100%;
+  border: 1px solid transparent;
+  -webkit-transition: var(--bs-transition);
+  transition: var(--bs-transition);
+}
+.pricing-section .pricing-item .pricing-title {
+  color: var(--bs-text-color1);
+  font-family: var(--bs-font-secondary);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 132%;
+  margin-bottom: 8px;
+}
+.pricing-section .pricing-item .package-title {
+  color: var(--bs-text-color2);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 160%;
+  margin-bottom: 26px;
+}
+.pricing-section .pricing-item .price {
+  color: var(--bs-text-color1);
+  font-family: var(--bs-font-secondary);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 132%;
+}
+.pricing-section .pricing-item .price span {
+  color: var(--bs-text-color2);
+  font-family: var(--bs-font-secondary);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 132%;
+  margin-left: 21px;
+}
+.pricing-section .pricing-item .pricing-info {
+  margin-top: 60px;
+}
+.pricing-section .pricing-item .pricing-info li {
+  color: var(--bs-text-color2);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 160%;
+  margin-bottom: 8px;
+}
+.pricing-section .pricing-item .pricing-info li span {
+  padding-right: 10px;
+}
+.pricing-section .pricing-item .view-all-btn2 {
+  border-bottom: 1px solid var(--bs-text-color2);
+  padding-right: 0;
+  margin-top: 51px;
+}
+.pricing-section .pricing-item:hover {
+  border-color: var(--bs-border-color11);
+}
+.pricing-section .pricing-item.active {
+  border-color: var(--bs-border-color11);
+}
+
 .inner-page-container {
   padding-top: 169px;
 }
@@ -1366,7 +1440,7 @@ p {
 }
 .faq-section .faq-body {
   margin: 0 1px;
-  margin-right: 90px;
+  margin-right: 88px;
 }
 .faq-section .faq-body .accordion-button:focus {
   -webkit-box-shadow: none;
@@ -1388,8 +1462,8 @@ p {
   font-size: 20px;
   font-weight: 600;
   line-height: 146%;
-  padding-bottom: 23px;
-  padding-top: 24px;
+  padding-bottom: 22px;
+  padding-top: 23px;
   padding-right: 25px;
 }
 .faq-section .faq-body .accordion-body {
@@ -1415,6 +1489,12 @@ p {
   border-top: 1px solid var(--bs-border-color10);
 }
 .faq-section .faq-body .accordion-item:last-of-type {
+  border-radius: 0 !important;
+}
+.faq-section .faq-body .accordion-item:first-of-type {
+  border-radius: 0 !important;
+}
+.faq-section .faq-body .accordion-item:first-of-type .accordion-button {
   border-radius: 0 !important;
 }
 

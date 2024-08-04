@@ -1,0 +1,76 @@
+.pricing-section {
+  padding: 120px 0 218px 0;
+
+  .pricing-item {
+    background-color: var(--bs-bg-color6);
+    padding: 45px 48px 55px;
+    height: 100%;
+    border: 1px solid transparent;
+    transition: var(--bs-transition);
+
+    .pricing-title {
+      color: var(--bs-text-color1);
+      font-family: var(--bs-font-secondary);
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 132%;
+      margin-bottom: 8px;
+    }
+
+    .package-title {
+      color: var(--bs-text-color2);
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 160%;
+      margin-bottom: 26px;
+    }
+
+    .price {
+      color: var(--bs-text-color1);
+      font-family: var(--bs-font-secondary);
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 132%;
+
+      span {
+        color: var(--bs-text-color2);
+        font-family: var(--bs-font-secondary);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 132%;
+        margin-left: 21px;
+      }
+    }
+
+    .pricing-info {
+      margin-top: 60px;
+
+      li {
+        color: var(--bs-text-color2);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 160%;
+        margin-bottom: 8px;
+
+        span {
+          padding-right: 10px;
+        }
+      }
+    }
+
+    .view-all-btn2 {
+      border-bottom: 1px solid var(--bs-text-color2);
+      padding-right: 0;
+      margin-top: 51px;
+    }
+
+    &:hover {
+      border-color: var(--bs-border-color11);
+    }
+  }
+
+  .pricing-item.active {
+    border-color: var(--bs-border-color11);
+  }
+}
