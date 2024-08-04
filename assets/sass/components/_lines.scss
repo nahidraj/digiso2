@@ -1,6 +1,13 @@
 .inner-page-lines {
-    span {
-      width: 1px;
-      background-color: var(--bs-border-color8);
-    }
+  max-width: 1200px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  span {
+    width: 1px;
+    background-color: var(--bs-border-color8);
+  }
+}
+.career-details-section{
+  padding: 109px 0;
 }

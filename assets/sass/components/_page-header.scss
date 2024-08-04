@@ -1,11 +1,11 @@
 .page-header {
+  padding-top: 144px;
   .page-sub-title {
     font-family: var(--bs-font-secondary);
     font-size: 96px;
     font-weight: 600;
     line-height: 103%;
     max-width: 675px;
-    padding-top: 167px;
 
     .page-header-shape {
       bottom: -34px;
@@ -39,6 +39,7 @@
     margin-right: -830px;
     top: 121px;
   }
+
   .pricing-title {
     margin-right: -130px;
     top: 121px;
@@ -46,7 +47,23 @@
 
   .des {
     max-width: 496px;
-    margin-left: auto;
-    margin-top: -36px;
+    margin-bottom: -40px;
+  }
+
+  .view-all-btn-primary {
+    padding: 30px;
+    color: var(--bs-text-color1);
+    font-family: var(--bs-font-secondary);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 125%;
+    text-transform: uppercase;
+    width: 225px;
+    height: 225px;
+    padding-top: 45px;
+
+    img {
+      margin-top: 13px;
+    }
   }
 }
