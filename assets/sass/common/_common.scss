@@ -44,6 +44,9 @@
   --bs-text-color6: #F8F8F8;
   --bs-text-color7: #AAAAAA;
   --bs-text-color8: #F6F6F6;
+  --bs-text-color9: #989898;
+  --bs-text-color10: #555555;
+  --bs-text-color11: #282828;
   --bs-bg-color1: #F8F8F8;
   --bs-bg-color2: #10171D;
   --bs-bg-color3: #18212A;
@@ -164,7 +167,6 @@ p {
 
 .row {
   --bs-gutter-x: 30px;
-  --bs-gutter-y: 30px;
 }
 
 /* section title */
@@ -213,7 +215,8 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  img{
+
+  img {
     margin-top: 7px;
   }
 }

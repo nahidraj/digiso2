@@ -1,0 +1,139 @@
+.career-details-banner-section {
+  height: 561px;
+  background-size: cover !important;
+  margin-top: 99px;
+
+  .career-details-info {
+    background-color: var(--bs-white);
+    max-width: 1200px;
+    padding: 55px 34px 41px 28px;
+    gap: 88px;
+    row-gap: 43px;
+
+    .info-item {
+      gap: 43px;
+
+      .sub-title {
+        color: var(--bs-text-color9);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 140%;
+        margin-bottom: 4px;
+      }
+
+      .title {
+        color: var(--bs-text-color10);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 140%;
+      }
+
+      &:first-child {
+        width: 269px;
+      }
+
+      &:nth-child(2) {
+        width: 147px;
+      }
+
+      &:nth-child(3) {
+        width: 251px;
+      }
+
+      &:nth-child(4) {
+        width: 187px;
+      }
+    }
+  }
+}
+
+.career-description-section {
+  padding-top: 94px;
+  background-color: var(--bs-white);
+
+  .title {
+    color: var(--bs-text-color1);
+    font-family: var(--bs-font-secondary);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 15px;
+  }
+
+  .sub-title {
+    color: var(--bs-text-color5);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 64px;
+  }
+
+  p {
+    color: var(--bs-paragraph);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 47px;
+  }
+
+  .inner-img {
+    margin-top: 54px;
+    padding-bottom: 77px;
+  }
+
+  .inner-title {
+    color: var(--bs-text-color1);
+    font-family: var(--bs-font-secondary);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 16px;
+  }
+
+  ul {
+    margin-bottom: 36px;
+    padding-left: 20px;
+
+    li {
+      color: var(--bs-paragraph);
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 160%;
+    }
+  }
+
+  .email-cv {
+    margin-bottom: 115px;
+
+    .inner-title {
+      margin-bottom: 10px;
+
+    }
+
+    p {
+      a {
+        color: var(--bs-text-color1);
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 160%;
+      }
+    }
+  }
+
+  .apply-now {
+    padding-bottom: 157px;
+    .title {
+      color: var(--bs-text-color1);
+      font-family: var(--bs-font-secondary);
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 132%;
+      padding-bottom: 73px;
+    }
+    .input-group{
+      margin-bottom: 44px;
+    }
+  }
+}

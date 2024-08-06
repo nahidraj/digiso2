@@ -43,6 +43,11 @@
 
 .career-inner-image-section {
   padding-bottom: 90px;
+
+  .row {
+    --bs-gutter-y: 30px;
+  }
+
 }
 
 .vacancy-section {
@@ -130,6 +135,7 @@
       border-radius: 62px;
       border: 2px solid #D4D4D4;
       padding: 40px;
+
       h4 {
         color: var(--bs-text-color1);
         font-family: var(--bs-font-secondary);
@@ -138,7 +144,9 @@
         font-weight: 500;
         line-height: normal;
       }
-      &:nth-child(2),&:nth-child(5){
+
+      &:nth-child(2),
+      &:nth-child(5) {
         margin: 0 -17px;
       }
     }
@@ -146,6 +154,7 @@
 
   .benifits-info {
     margin-left: -30px;
+
     .title {
       color: var(--bs-text-color1);
       font-family: var(--bs-font-secondary);

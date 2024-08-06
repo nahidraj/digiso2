@@ -1,10 +1,17 @@
 @import "./common/common";
 // @import "./mixin/font";
 @import "./pages/home";
+@import "./pages/portfolio";
+@import "./pages/portfolio-details";
+@import "./pages/team";
 @import "./pages/career";
 @import "./pages/career-details";
 @import "./pages/pricing.scss";
 @import "./pages/faq";
 @import "./pages/contact";
 @import "./pages/error404";
+@import "./components/page-header";
+@import "./components/subscribe-now";
+@import "./components/lines";
+@import "./components/work-with-us";
 

@@ -1,0 +1,30 @@
+.work-with-us-section {
+  margin-top: 136px;
+
+  .text {
+    .sub-title {
+      color: var(--bs-paragraph);
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      margin-bottom: 31px;
+    }
+  }
+}
+
+.lets-talk-section {
+  background-color: var(--bs-bg-color3);
+  height: 153px;
+  margin-top: 130px;
+
+  .view-all-btn-primary {
+    color: var(--bs-text-color11);
+    text-align: center;
+    font-family: var(--bs-font-secondary);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 125%;
+    padding-top: 40px;
+    top: -74px;
+  }
+}
