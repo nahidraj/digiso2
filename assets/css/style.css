@@ -42,6 +42,7 @@
   --bs-text-color9: #989898;
   --bs-text-color10: #555555;
   --bs-text-color11: #282828;
+  --bs-text-color12: #E1E1E1;
   --bs-bg-color1: #F8F8F8;
   --bs-bg-color2: #10171D;
   --bs-bg-color3: #18212A;
@@ -1262,6 +1263,78 @@ p {
   right: -192px;
 }
 
+.footer-section-four {
+  background: var(--bs-bg-color2);
+  padding: 114px 0 74px 0;
+}
+.footer-section-four .footer-about {
+  max-width: 270px;
+}
+.footer-section-four .footer-about .logo {
+  margin-bottom: 53px;
+}
+.footer-section-four .footer-about p {
+  color: var(--bs-text-color12);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.footer-section-four .footer-about .footer-social-icon2 {
+  margin-top: 37px;
+}
+.footer-section-four .footer-about .footer-social-icon2 a {
+  width: 48px;
+  height: 48px;
+  background-color: var(--bs-white);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.footer-section-four .ms-60 {
+  margin-left: 60px;
+}
+.footer-section-four .footer-widget .footer-title {
+  margin-bottom: 36px;
+}
+.footer-section-four .footer-widget ul li a {
+  color: var(--bs-text-color12);
+}
+.footer-section-four .footer-widget ul li + li {
+  margin-top: 4px;
+}
+.footer-section-four .footer-widget.address p {
+  color: var(--bs-text-color12);
+}
+.footer-section-four .footer-widget.address .contact-info {
+  margin-top: 30px;
+}
+.footer-section-four .footer-widget.address .contact-info a {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+  color: var(--bs-text-color12);
+}
+.footer-section-four .footer-copyright {
+  border-top: 1px solid #808080;
+  margin-top: 57px;
+  padding-top: 22px;
+}
+.footer-section-four .footer-copyright p {
+  color: var(--bs-text-color7);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
 .footer-widget .footer-title {
   color: var(--bs-white);
   font-family: var(--bs-font-secondary);
@@ -1887,6 +1960,10 @@ p {
 }
 .error-section .back-top-home .back-to-home-btn .icon {
   margin-top: 13px;
+}
+
+.blog-section-four {
+  padding-top: 150px;
 }
 
 .page-header {
