@@ -1373,6 +1373,7 @@ p {
 
 .portfolio-section {
   padding-top: 126px;
+  padding-bottom: 136px;
 }
 .portfolio-section .portfolio-item {
   margin-bottom: 72px;
@@ -1404,6 +1405,89 @@ p {
 .portfolio-section .portfolio-item:hover img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.team-section-two {
+  margin-top: 143px;
+}
+.team-section-two .team-row {
+  --bs-gutter-x: 65px;
+  --bs-gutter-y: 84px;
+}
+.team-section-two .team-item .img {
+  background-color: #FFF9F1;
+  border-radius: 46px 0px;
+  margin-bottom: 32px;
+}
+.team-section-two .team-item .img img {
+  border-radius: 46px 0px;
+}
+.team-section-two .team-item .text .title {
+  color: var(--bs-text-color1);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 11px;
+}
+.team-section-two .team-item .text p {
+  color: var(--bs-paragraph);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.team-section-two .team-member-2 .img {
+  background-color: #FAF4FF;
+}
+.team-section-two .team-member-3 .img {
+  background-color: #F4FFFC;
+}
+.team-section-two .join-our-team {
+  padding: 122px 0 171px 0;
+}
+.team-section-two .join-our-team .view-all-btn-primary {
+  font-family: var(--bs-font-secondary);
+  width: 225px;
+  height: 225px;
+  color: var(--bs-text-color1);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 125%;
+  padding: 40px;
+  padding-top: 70px;
+}
+.team-section-two .team-inner-banner {
+  padding-bottom: 103px;
+}
+.team-section-two .team-counter {
+  margin-bottom: 214px;
+}
+.team-section-two .team-counter .text .section-title {
+  font-size: 40px;
+  line-height: 130%;
+  padding-right: 60px;
+}
+.team-section-two .team-counter .text .team-shape {
+  top: 40px;
+  right: -73px;
+}
+.team-section-two .team-counter .text p {
+  font-size: 18px;
+  padding-right: 40px;
+}
+.team-section-two .team-counter .counter-row {
+  --bs-gutter-y: 68px;
+}
+.team-section-two .team-counter .counter-item .counter-title {
+  color: var(--bs-text-color1);
+  font-family: var(--bs-font-secondary);
+  font-size: 64px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+.team-section-two .team-counter .counter-item p {
+  font-weight: 500;
+  max-width: 110px;
 }
 
 .career-banner-section {
@@ -1964,6 +2048,131 @@ p {
 
 .blog-section-four {
   padding-top: 150px;
+  padding-bottom: 181px;
+}
+.blog-section-four .row {
+  --bs-gutter-y: 68px;
+}
+
+.blog-item-four .image img {
+  -webkit-transition: var(--bs-transition);
+  transition: var(--bs-transition);
+}
+.blog-item-four .text {
+  margin-top: 28px;
+}
+.blog-item-four .text ul li {
+  color: var(--bs-paragraph);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+}
+.blog-item-four .text .title {
+  color: var(--bs-text-color1);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 140%;
+  margin: 18px 0 18px 0;
+  border-bottom: 1px solid var(--bs-border-color5);
+  padding-bottom: 18px;
+}
+.blog-item-four .text .view-all-btn2 {
+  color: var(--bs-paragraph);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+}
+.blog-item-four .text .view-all-btn2 svg {
+  margin-left: 9px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.blog-item-four:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.blog-details-meta {
+  color: var(--bs-paragraph);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  margin-bottom: 22px;
+}
+
+.blog-details-section {
+  margin-top: 47px;
+}
+.blog-details-section .writer-info {
+  margin-bottom: 60px;
+}
+.blog-details-section .writer-info .info-block .img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+}
+.blog-details-section .writer-info .info-block .img img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.blog-details-section .writer-info .info-block .text p {
+  color: var(--bs-paragraph);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+  margin-bottom: 4px;
+}
+.blog-details-section .writer-info .info-block .text .title {
+  color: var(--bs-text-color1);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 140%;
+}
+.blog-details-section .writer-info .viewed {
+  margin-left: 58px;
+}
+.blog-details-section .blog-details-banner {
+  margin-bottom: 50px;
+}
+.blog-details-section .blog-details-info p {
+  font-size: 18px;
+}
+.blog-details-section .blog-details-info p + p {
+  margin-top: 32px;
+}
+.blog-details-section .blog-details-info .inner-block-img {
+  margin: 50px 0 57px 0;
+}
+.blog-details-section .blog-details-info .inner-block-img p {
+  margin-top: 45px;
+  font-size: 18px;
+  color: var(--bs-text-color2);
+}
+.blog-details-section .blog-details-info .section-title-block {
+  margin-bottom: 17px;
+}
+.blog-details-section .blog-details-info .content-block {
+  margin-bottom: 62px;
+}
+.blog-details-section .blog-details-info .content-block ul {
+  margin-top: 32px;
+}
+.blog-details-section .blog-details-info .content-block ul li {
+  color: var(--bs-text-color2);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+}
+.blog-details-section .blog-details-info .content-block ul li span {
+  margin-right: 12px;
+}
+.blog-details-section .related-blog {
+  margin: 160px 0 160px 0;
+}
+.blog-details-section .related-blog .section-title-block {
+  margin-bottom: 60px;
 }
 
 .page-header {
@@ -2082,7 +2291,7 @@ p {
 }
 
 .work-with-us-section {
-  margin-top: 136px;
+  margin-top: 0;
 }
 .work-with-us-section .text .sub-title {
   color: var(--bs-paragraph);
