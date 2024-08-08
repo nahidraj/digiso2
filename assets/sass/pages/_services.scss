@@ -1,0 +1,214 @@
+.services-section-two {
+  margin: 160px 0;
+}
+
+.service-item-two {
+  border: 2px solid var(--bs-border-color5);
+  padding: 62px 36px;
+  margin-bottom: 30px;
+
+  .icon {
+    flex: 0 0 auto;
+  }
+
+  .text {
+    margin-left: 30px;
+
+    .title {
+      color: var(--bs-text-color2);
+      font-family: var(--bs-font-secondary);
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 132%;
+      margin-bottom: 16px;
+    }
+
+    p {
+      margin-bottom: 36px;
+    }
+
+    .view-all-btn2 {
+      img {
+        margin-left: 8px;
+      }
+    }
+  }
+}
+
+.service-item-two.black-border {
+  border-color: var(--bs-border-color11)
+}
+
+.service-rebrand-section {
+  margin-bottom: 160px;
+
+  .section-title-block {
+    .section-sub-title {
+      margin-bottom: 18px;
+    }
+  }
+
+  .rebrand-main {
+    margin-top: 60px;
+
+    .rebrand-item {
+      border: 1px solid var(--bs-border-color5);
+      background-color: var(--bs-white);
+
+      .text {
+        padding: 30px 30px 31px 35px;
+        max-width: 236px;
+
+        .title {
+          color: var(--bs-text-color2);
+          font-family: var(--bs-font-secondary);
+          font-size: 32px;
+          font-weight: 600;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}
+
+.testimonial-section-two {
+  margin-bottom: 160px;
+
+  .testimonial-main {
+    margin-top: 60px;
+
+    .testimonial-row {
+      --bs-gutter-x: 0;
+    }
+
+    .tes-two-text-slider {
+      .slider-item {
+        background-color: var(--bs-text-color1);
+        padding: 46px 56px 134px 65px;
+        border-radius: 0px 12px 12px 0px;
+
+        ul {
+          padding-bottom: 59px;
+
+          li {
+            color: var(--bs-white);
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 150%;
+          }
+
+          .icon {
+            margin-left: 16px;
+          }
+
+          .review {
+            margin-left: 8px;
+            color: var(--bs-text-color13);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 150%;
+          }
+        }
+
+        p {
+          color: var(--bs-text-color14);
+          font-size: 32px;
+          font-style: italic;
+          font-weight: 500;
+          line-height: 42px;
+        }
+      }
+
+      .slick-dots {
+        position: absolute;
+        bottom: 43px;
+        right: 56px;
+
+        li {
+          display: inline-block;
+          margin: 0 16px;
+
+          button {
+            font-size: 0;
+            background-color: var(--bs-bg-color4);
+            width: 10px;
+            height: 10px;
+            border-radius: 10px;
+            border: 0;
+            position: relative;
+
+            &::before {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              width: 32px;
+              height: 32px;
+              content: "";
+              background: url(../img/icons/slider-dots.svg);
+              visibility: hidden;
+            }
+          }
+        }
+
+        .slick-active {
+          button {
+            background-color: var(--bs-bg-color5);
+
+            &::before {
+              visibility: visible;
+            }
+          }
+        }
+      }
+    }
+
+    .tes-two-img-slider {
+      .slider-item {
+        border-radius: 12px 0px 0px 12px;
+        background-color: var(--bs-text-color1);
+        padding: 0 43px 29px;
+
+        .img {
+          border-radius: 0px 0px 200px 200px;
+          overflow: hidden;
+          margin-bottom: 30px;
+
+          img {
+            border-radius: 0px 0px 200px 200px;
+          }
+        }
+
+        .text {
+          .name {
+            margin-bottom: 4px;
+            color: var(--bs-white);
+            font-size: 24px;
+            font-weight: 600;
+            line-height: normal;
+          }
+
+          .designation {
+            color: var(--bs-text-color7);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 27px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.brand-section-two{
+  margin-bottom: 95px;
+  border-top: 1px solid var(--bs-border-color13);
+  border-bottom: 1px solid var(--bs-border-color13);
+  .brand-item-label{
+    padding: 34px 0;
+    border-right: 1px solid var(--bs-border-color13);
+    &:last-child{
+      border-right: 0;
+    }
+  }
+}

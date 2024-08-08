@@ -1,6 +1,9 @@
 @import "./common/common";
 // @import "./mixin/font";
 @import "./pages/home";
+@import "./pages/services";
+@import "./pages/blog";
+@import "./pages/blog-details";
 @import "./pages/portfolio";
 @import "./pages/portfolio-details";
 @import "./pages/team";
@@ -10,8 +13,6 @@
 @import "./pages/faq";
 @import "./pages/contact";
 @import "./pages/error404";
-@import "./pages/blog";
-@import "./pages/blog-details";
 @import "./components/page-header";
 @import "./components/subscribe-now";
 @import "./components/lines";

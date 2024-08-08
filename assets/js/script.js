@@ -70,25 +70,43 @@
 		}]
 	});
 
-	// // Testimonial slider js
-	// $(".testimonial-slider").slick({
-	// 	slidesToShow: 2,
-	// 	slidesToScroll: 1,
-	// 	autoplay: false,
-	// 	dots: false,
-	// 	infinite: true,
-	// 	arrows: false,
-	// 	speed: 500,
-	// 	prevArrow: '<i class="fas left icon fa-arrow-left"></i>',
-	// 	nextArrow: '<i class="fas right icon fa-arrow-right"></i>',
-	// 	responsive: [{
-	// 		breakpoint: 768,
-	// 		settings: {
-	// 			slidesToShow: 1,
-	// 			slidesToScroll: 1,
-	// 		}
-	// 	}]
-	// });
+	// // Testimonial two text slider js
+	$(".tes-two-text-slider").slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		dots: true,
+		infinite: true,
+		arrows: false,
+		speed: 500,
+		asNavFor: ".tes-two-img-slider",
+		responsive: [{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+			}
+		}]
+	});
+
+	// // Testimonial two image slider js
+	$(".tes-two-img-slider").slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: false,
+		dots: false,
+		infinite: true,
+		arrows: false,
+		speed: 500,
+		asNavFor: ".tes-two-text-slider",
+		responsive: [{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+			}
+		}]
+	});
 
 	// back to top js
 	let btn = $(".scroll-to-top");
